@@ -28,7 +28,7 @@ class _MyWidgetState extends State<MyWidget> {
   String stateText = "disable";
 
   void changeCheck() {
-    // setState가 호출되어야 화면을 재빌드하여 상태값이 변경된다. 중요!
+    // setState가 호출되어야 화면을 재빌드하여 상태값이 변경된다. 중요!!
     setState(() {
       if (enabled) {
         stateText = "disable";
