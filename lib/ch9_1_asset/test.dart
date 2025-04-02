@@ -6,7 +6,7 @@ void main() {
 }
 
 class MyApp extends StatelessWidget{
-  // rootBundle을 이용해 애셋 파일을 읽어 반환하는 함수
+  // rootBundle을 이용해 애셋 파일을 읽어 반환하는 함수/
   // Future는 비동기 데이터를 의미하며 이후에 자세히 다룸
   Future<String> useRootBundle() async{
     return await rootBundle.loadString('assets/text/my_text.txt');
