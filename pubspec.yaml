@@ -10,6 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  font_awesome_flutter: ^10.1.0
 
   cupertino_icons: ^1.0.8
   english_words: ^4.0.0 # 외부 패키지 사용을 위해 의존성 주입
