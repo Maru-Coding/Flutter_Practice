@@ -8,10 +8,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      // 앱 바 푸른색으로 지정하기
+      // 앱 바
       theme: ThemeData(
           appBarTheme: AppBarTheme(
             backgroundColor: Colors.blue,
+            elevation: 0,
+            shape: Border(bottom: BorderSide(color: Colors.black, width: 2)),
           )
       ),
 

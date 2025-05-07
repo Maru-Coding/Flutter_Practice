@@ -1,0 +1,2 @@
+코드 정리 : Ctrl + Alt + L
+전체 찾기 : Ctrl + Shfit + F
